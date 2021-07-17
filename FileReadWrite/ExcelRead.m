@@ -1,0 +1,10 @@
+clc,clear,close all;
+M=xlsread('Marks.xlsx');
+disp(M);
+pause(1);
+[M1 T A]=xlsread('Marks.xlsx');
+disp(M1);
+pause(1);
+disp(T);
+pause(1);
+disp(A);
