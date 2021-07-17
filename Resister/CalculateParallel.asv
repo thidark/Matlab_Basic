@@ -1,4 +1,8 @@
+r1=100;
+r2=100;
+r3=100;
+r4=100;
+
 function R=CalculateParallel(r1,r2,r3,r4)
 R=1/r1+1/r2+1/r3+1/r4;
 end
-
